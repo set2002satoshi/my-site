@@ -1,0 +1,28 @@
+.menu_bar_menu_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 35px;
+    width: 100%;
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+.menu_bar_icon_btn_entity {
+    background: none;
+    border: none;
+}
+
+.menu_bar_menu_btn_entity svg {
+    min-width: 45px;
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}
+
+.menu_bar_menu_btn_entity svg path {
+    min-width: 45px;
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+}

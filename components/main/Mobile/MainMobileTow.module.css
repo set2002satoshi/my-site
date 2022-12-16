@@ -1,0 +1,28 @@
+
+
+.main_two_explanation {
+    max-width: 375px;
+    margin: 0 auto 60px auto;
+}
+
+
+.main_two_explanation_h1 p {
+    margin:0 auto 32px auto;
+    font-size: 22px;
+}
+
+.main_two_explanation_h1 {
+    max-width: 375px; 
+    margin:0 auto;
+}
+
+.main_two_explanation_p {
+    margin:0 auto 70px auto;
+    max-width: 375px; 
+}
+
+.main_two_explanation_p p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8B8B8B;
+}

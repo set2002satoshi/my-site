@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background: #F6F7F9;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -12,7 +13,14 @@ a {
 }
 
 * {
+  -webkit-box-sizing: border-box;  /*webkit系*/
+  -moz-box-sizing: border-box;  /*Firefox*/
   box-sizing: border-box;
+}
+
+.mian {
+  width: 85%;
+  background-color: #0070f3;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,0 +1,69 @@
+
+
+.menu {
+    display: flex;
+    border: 1px solid #fff;
+    width: 100%;
+    min-width: 400px;
+    min-height: 50px;
+    height: auto;
+    max-height: 10vh;
+    background-color: #fff;
+    
+    /* 中央寄せ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu_bar {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_bar_icon {
+    min-width: 65px;
+    width: 20%;
+    max-width: 100px;
+    min-height: 25px;
+    height: auto;
+    max-height: 50px;
+    margin: auto 0;
+}
+
+.menu_bar_icon img {
+    width: 75px;
+    height: 35px;
+    margin: auto 0;
+}
+
+.menu_bar_menu_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 35px;
+    width: 10%;
+    max-width: 50px;
+}
+
+
+.menu_cord {
+    width: 50%;
+    height: 100vh;
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+}
+
+.menu_cord div {
+    margin: 15px 0 5px 10px;
+}
+
+
+
