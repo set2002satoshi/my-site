@@ -21,7 +21,7 @@ const MainPc = () => {
             <div className={styles.content_one_h}>
               <div className={styles.content_one_h1}>
               <p>
-                I’m User Interface<br />
+                I am User Interface<br />
                 And Backend <br /> 
                 Developer.
               </p>
@@ -29,7 +29,7 @@ const MainPc = () => {
               <div className={styles.content_one_p}>
                 <div className={styles.content_one_h2}>                
                 <p>
-                Hello! I'm satoshi. a professional student user interface and  backend developer japan in Tokyo. I'm very passionate about the work that ! do
+                Hello! I am satoshi. a professional student user interface and  backend developer japan in Tokyo. I am very passionate about the work that ! do
                 </p>
                 </div>
               </div>

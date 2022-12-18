@@ -10,10 +10,10 @@ import MainPcTwo from "../components/main/pc/MainPcTow"
 import FormsPc from "../components/form/pc/FormsPc"
 import BlogsPc from "../components/blogs/pc/BlogsPc"
 
-import { getWindowSize } from "../components/Hooks/GetWindowSize";
+import { GetWindowSize } from "../components/Hooks/GetWindowSize";
 
 export default function Home() {
-  const { height, width } = getWindowSize();
+  const { height, width } = GetWindowSize();
   switch (true) {
 
   }

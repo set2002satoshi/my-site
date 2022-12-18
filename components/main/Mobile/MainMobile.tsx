@@ -21,14 +21,14 @@ const MainMobile = () => {
             <div className={styles.content_one_h}>
               <div className={styles.content_one_h1}>
               <p>
-                I’m User Interface<br />
+                I am User Interface<br />
                 And Backend Developer.
               </p>
               </div>
               <div className={styles.content_one_p}>
                 <div className={styles.content_one_h2}>                
                 <p>
-                Hello! I'm satoshi. a professional student <br /> user interface and  backend developer <br /> japan in Tokyo. I'm very passionate about <br /> the work that ! do
+                Hello! I am satoshi. a professional student <br /> user interface and  backend developer <br /> japan in Tokyo. I am very passionate about <br /> the work that ! do
                 </p>
                 </div>
               </div>
