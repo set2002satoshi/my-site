@@ -3,27 +3,63 @@
   background-color: #F6F7F9;
 
 }
-
+.main_blogs,
 .main_one,
 .main_two {
   overflow: hidden;
 }
-
+.main_one_pc,
 .main_one {
   background-color: #F6F7F9;
   width: 90%;
   height: auto;
   margin: 0 auto;
-
 }
 
+.main_one_pc > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_one_pc {
+  margin: 120px auto;
+}
 .main_two {
   background: #fff;
   padding-top: 32px;
 }
 
-
+.main_blogs_pc_wrap,
 .main_two_wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.main_blogs {
+  width: 90%;
+  margin: 0 auto;
+}
+.main_blogs_wrap {
+  width: 90%;
+  margin: 0 auto;
+  background: #F6F7F9;
+  border-radius: 10px;
+}
+
+.main_blogs_pc_wrap {
+  width: 90%;
+  margin: 0 auto;
+  background: #F6F7F9;
+  border-radius: 10px;
+}
+
+.main_three {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main_three_wrap {
   width: 90%;
   margin: 0 auto;
 }

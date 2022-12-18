@@ -1,0 +1,21 @@
+
+
+.main_two_status_cord {
+    width: 100%;
+}
+
+
+.main_two_status_one_label p {
+    color: #8b8b8b;
+    margin-top: 0;
+    color: #a4ab8c;
+}
+
+
+
+@media screen and (min-width: 960px) {
+    .main_two_status_one_label p {
+        size: 18px;
+    }
+    
+}

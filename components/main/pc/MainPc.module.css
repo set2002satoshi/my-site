@@ -1,0 +1,105 @@
+
+.content_one {
+    width: 45%;
+    height: 45%;
+    max-height: 600px;
+    background-color:#F6F7F9;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_one_icons {
+    min-width: 290px;
+    width: 100%;
+    max-width: 400px;
+    height:65%;
+    margin: 0 auto;
+}
+
+.content_one_icon {
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+.content_one_icon img {
+    border-radius: 100%;
+}
+
+.content_one_texts {
+    width: 40%;
+    
+}
+
+.content_one_h {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_one_h1 {
+    width: auto;
+    
+    margin-top: 0;
+}
+.content_one_h1 p {
+    margin: 0 0 13px 0;
+    font-size: 40px;
+}
+
+.content_one_p {
+    text-align: left;
+    max-width: 400px;
+}
+
+
+.content_one_p div p {
+    color: #8B8B8B;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0 auto 32px auto; 
+}
+
+.content_one_btn {
+    min-width: 250px;
+    width: 75%;
+    max-width: 270px;
+    max-width: 275px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_one_btn button {
+    min-width: 118px;
+    min-height: 38px;
+    border-radius: 10px;
+    border: 1px solid #D67891;
+    font-size: 14px;
+}
+
+.content_one_btn div:nth-child(1) button {
+    background: #D67891;
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+}
+
+.content_one_btn div button:nth-child(2) {
+    background: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+}
+
+@media screen and (max-width: 850px) {
+    .content_one_h1 p {
+        margin: 0 0 13px 0;
+        font-size: 35px;
+    }
+
+    .content_one_p div p {
+        color: #8B8B8B;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto 32px auto; 
+    }
+}

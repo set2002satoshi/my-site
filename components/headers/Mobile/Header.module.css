@@ -8,8 +8,12 @@
     min-height: 50px;
     height: auto;
     max-height: 10vh;
-    background-color: #fff;
+    background-color: #ffffff;
+    box-shadow: rgb(2 1 1 / 10%) 0px 5px 20px -5px;
     
+    z-index: 3;
+    position: sticky;
+    top: 0;
     /* 中央寄せ */
     display: flex;
     flex-direction: column;

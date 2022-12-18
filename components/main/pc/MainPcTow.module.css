@@ -1,0 +1,71 @@
+
+
+.main_two_explanation {
+    max-width: 375px;
+    margin: 0 auto 60px auto;
+}
+
+
+.main_two_explanation_h1 p {
+    margin:0 auto 32px auto;
+    font-size: 22px;
+}
+
+.main_two_explanation_h1 {
+    max-width: 375px; 
+    margin:0 auto;
+}
+
+.main_two_explanation_p {
+    margin:0 auto 70px auto;
+    max-width: 375px; 
+}
+
+.main_two_explanation_p p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #8B8B8B;
+}
+
+
+@media screen and (min-width: 960px) {
+    
+
+    .main_two_explanation {
+        
+        max-width: 90%;
+        margin: 50px auto 60px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main_two_explanation_wrap {
+        width: 40%;
+    }
+
+    .main_two_explanation_h1 p {
+        margin:0 auto 32px auto;
+        font-size: 40px;
+    }
+
+    .main_two_explanation_h1 div {
+        margin:0 auto;
+        
+    }
+
+    .main_two_explanation_p {
+        margin:0 auto 70px auto;
+    }
+
+    .main_two_explanation_p p {
+        font-size: 16px;
+        line-height: 35px;
+        color: #8B8B8B;
+    }
+
+    .main_two_status {
+        width: 40%;
+    }
+
+
+}

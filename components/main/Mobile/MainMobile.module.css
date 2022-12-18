@@ -5,6 +5,7 @@
 }
 
 .content_one_icons {
+    max-width: 350px;
     width:95%;
     height:95%;
     margin: 0 auto;

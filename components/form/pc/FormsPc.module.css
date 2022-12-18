@@ -1,0 +1,60 @@
+
+
+.form_main {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+
+
+.form_h {
+    margin-top: 45px;
+    font-size: 25px;
+}
+
+.from_p {
+    font-size: 18px;
+    color: #8b8b8b;
+    line-height: 30px;
+}
+
+.form_text_area_short_one {
+    margin: 30px auto;
+}
+
+.form_text_area_long {
+    margin: 30px auto;
+}
+
+.form_btn {
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 975px) {
+    .form_main {
+        max-width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .form_h {
+        font-size: 30px;
+        min-width: 400px;
+        width: 50%;
+        max-width: 50px;
+    }
+
+    .form_h p {
+        width: 100%;
+    }
+
+    .form_p {
+        font-size: 20px;
+    }
+    .form_text_area {
+        width: 100%;
+        width: 500px;
+    }
+
+}
