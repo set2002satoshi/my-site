@@ -1,4 +1,5 @@
 import styles from './MainMobile.module.css'
+import Image from 'next/image'
 import React, { useState } from 'react'
 
 const MainMobile = () => {
@@ -7,7 +8,12 @@ const MainMobile = () => {
           <div className={styles.content_one}>
             <div className={styles.content_one_icons}>
               <div className={styles.content_one_icon}>
-                <img src="https://placehold.jp/30x30.png" width="100%" height="100%"/>
+                <Image
+                    src="https://placehold.jp/30x30.png"
+                    alt=""
+                    width={100}
+                    height={100}
+                />
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import styles from './HeaderPc.module.css'
+import Image from 'next/image'
 import React, { useState } from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -13,7 +14,12 @@ const HeaderPcView = () => {
             <div className={styles.pc_menu}>
                 <div className={styles.pc_menu_bar}>
                     <div className={styles.pc_menu_bar_icon}>
-                        <img src="https://placehold.jp/75x35.png" width="100%" height="100%"/>
+                    <Image
+                        src="https://placehold.jp/75x35.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
                     </div>
                     <div className={styles.pc_menu_bar_lists}>
                         <div>Home</div>

@@ -1,4 +1,5 @@
 import styles from './Header.module.css'
+import Image from 'next/image'
 import React, { useState } from 'react'
 import Menu from './Menu'
 
@@ -21,7 +22,12 @@ const HeaderMobileView = () => {
             <div className={styles.menu}>
                 <div className={styles.menu_bar}>
                     <div className={styles.menu_bar_icon}>
-                        <img src="https://placehold.jp/75x35.png" width="100%" height="100%"/>
+                    <Image
+                        src="https://placehold.jp/75x35.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />                 
                     </div>
                     <div className={styles.menu_bar_menu_btn}>
                         <Menu 
