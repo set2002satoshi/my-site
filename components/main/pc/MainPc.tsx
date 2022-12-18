@@ -1,5 +1,6 @@
 import styles from './MainPc.module.css'
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 const MainPc = () => {
     return (
@@ -7,7 +8,12 @@ const MainPc = () => {
           <div className={styles.content_one}>
             <div className={styles.content_one_icons}>
               <div className={styles.content_one_icon}>
-                <img src="https://placehold.jp/500x500.png" width="100%" height="100%"/>
+              <Image
+                src="https://placehold.jp/500x500.png"
+                alt=""
+                width={300}
+                height={300}
+              />
               </div>
             </div>
           </div>
@@ -15,7 +21,7 @@ const MainPc = () => {
             <div className={styles.content_one_h}>
               <div className={styles.content_one_h1}>
               <p>
-                I’m User Interface<br />
+                I am User Interface<br />
                 And Backend <br /> 
                 Developer.
               </p>
@@ -23,7 +29,7 @@ const MainPc = () => {
               <div className={styles.content_one_p}>
                 <div className={styles.content_one_h2}>                
                 <p>
-                Hello! I'm satoshi. a professional student user interface and  backend developer japan in Tokyo. I'm very passionate about the work that ! do
+                Hello! I am satoshi. a professional student user interface and  backend developer japan in Tokyo. I am very passionate about the work that ! do
                 </p>
                 </div>
               </div>

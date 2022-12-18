@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import HeaderMobileView from "../components/headers/Mobile/HeaderMobile"
-import MainMobile from "../components/main/mobile/MainMobile"
-import MainMobileTow from "../components/main/mobile/MainMobileTow"
+import MainMobile from "../components/main/Mobile/MainMobile"
+import MainMobileTow from "../components/main/Mobile/MainMobileTow"
 import BlogsMobile from "../components/blogs/mobile/BlogsMobile"
 import FormsMobile from "../components/form/mobile/FormsMobile"
 import HeaderPcView from "../components/headers/pc/HeaderPc"
@@ -10,10 +10,10 @@ import MainPcTwo from "../components/main/pc/MainPcTow"
 import FormsPc from "../components/form/pc/FormsPc"
 import BlogsPc from "../components/blogs/pc/BlogsPc"
 
-import { getWindowSize } from "../components/Hooks/GetWindowSize";
+import { GetWindowSize } from "../components/Hooks/GetWindowSize";
 
 export default function Home() {
-  const { height, width } = getWindowSize();
+  const { height, width } = GetWindowSize();
   switch (true) {
 
   }
