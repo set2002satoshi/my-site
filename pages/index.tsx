@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import styles from '../styles/Home.module.css'
 import HeaderMobileView from "../components/headers/Mobile/HeaderMobile"
 import MainMobile from "../components/main/Mobile/MainMobile"
@@ -9,18 +10,19 @@ import MainPc from "../components/main/pc/MainPc"
 import MainPcTwo from "../components/main/pc/MainPcTow"
 import FormsPc from "../components/form/pc/FormsPc"
 import BlogsPc from "../components/blogs/pc/BlogsPc"
-
+import CircularProgress from '@mui/material/CircularProgress';
+import Box from '@mui/material/Box';
 import { GetWindowSize } from "../components/Hooks/GetWindowSize";
 
 export default function Home() {
   const { height, width } = GetWindowSize();
-  switch (true) {
-
-  }
 
   if (width < 724) {
     return (
       <div className={styles.container}>
+        <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
         <HeaderMobileView />
         <div className={styles.main_one}>
           <MainMobile />
@@ -67,5 +69,10 @@ export default function Home() {
       </div>
     )
   }
+  return (
+    <Box sx={{ display: 'flex' }}>
+      <CircularProgress />
+    </Box>
+  );
 
 }
