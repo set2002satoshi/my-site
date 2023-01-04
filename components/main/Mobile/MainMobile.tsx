@@ -1,6 +1,7 @@
 import styles from './MainMobile.module.css'
 import Image from 'next/image'
 import React from 'react'
+import icon from '../../../images/a-4.jpg'
 
 const MainMobile = () => {
     return (
@@ -9,10 +10,10 @@ const MainMobile = () => {
             <div className={styles.content_one_icons}>
               <div className={styles.content_one_icon}>
                 <Image
-                    src="https://placehold.jp/30x30.png"
-                    alt=""
-                    width={100}
-                    height={100}
+                  src={icon}
+                  alt=""
+                  width={100}
+                  height={100}
                 />
               </div>
             </div>

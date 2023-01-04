@@ -21,16 +21,16 @@ const BlogsMobile = () => {
             <div className={styles.main_blogs_entity}>
                 <BlogsCord  
                     imgURL={"https://images.unsplash.com/photo-1671212726418-295fbe54b541?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"} 
-                    ctegory={"Programming"} 
-                    subtext={"tec Blog"}
+                    ctegory={"pet theory"} 
+                    subtext={"pet theory Blog"}
                     color={false} 
                 />
             </div>
             <div className={styles.main_blogs_entity}>
                 <BlogsCord  
                     imgURL={"https://images.unsplash.com/photo-1671209733388-ee0bdc544390?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"} 
-                    ctegory={"Programming"} 
-                    subtext={"tec Blog"}
+                    ctegory={"history"} 
+                    subtext={"history Blog"}
                     color={true} 
                 />
             </div>

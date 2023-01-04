@@ -1,6 +1,7 @@
 import styles from './MainPc.module.css'
 import React, { useState } from 'react'
 import Image from 'next/image'
+import icon from '../../../images/a-2.jpg'
 
 const MainPc = () => {
     return (
@@ -9,7 +10,7 @@ const MainPc = () => {
             <div className={styles.content_one_icons}>
               <div className={styles.content_one_icon}>
               <Image
-                src="https://placehold.jp/500x500.png"
+                src={icon}
                 alt=""
                 width={300}
                 height={300}
