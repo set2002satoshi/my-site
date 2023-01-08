@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './HeaderPc.module.css'
 import Image from 'next/image'
 import React, { useState } from 'react'
@@ -28,9 +29,9 @@ const HeaderPcView = () => {
                         <div>Content</div>
                     </div>
                     <div className={styles.pc_menu_bar_links}>
-                        <div><GitHubIcon /></div>
+                        <div><Link href="https://github.com/set2002satoshi" ><GitHubIcon /></Link></div>
                         <div><TwitterIcon /></div>
-                        <div><InstagramIcon /></div>
+                        <div><Link href=""><InstagramIcon /></Link></div>
                     </div>
                 </div>
             </div>

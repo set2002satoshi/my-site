@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './MainMobile.module.css'
 import Image from 'next/image'
 import React from 'react'
@@ -34,8 +35,8 @@ const MainMobile = () => {
                 </div>
               </div>
               <div className={styles.content_one_btn}>
-                <div><button>See My Blogs</button></div>
-                <div><button>See Git Link</button></div>
+                <div><button >See My Blogs</button></div>
+                <div><Link href="https://github.com/set2002satoshi"><button>See Git Link</button></Link></div>
               </div>
             </div>
           </div>
