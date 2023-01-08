@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './MainPc.module.css'
 import React, { useState } from 'react'
 import Image from 'next/image'
@@ -36,7 +37,7 @@ const MainPc = () => {
               </div>
               <div className={styles.content_one_btn}>
                 <div><button>See My Blogs</button></div>
-                <div><button>See Git Link</button></div>
+                <div><Link href="https://github.com/set2002satoshi"><button>See Git Link</button></Link></div>
               </div>
             </div>
           </div>
